@@ -1,0 +1,14 @@
+.main-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+.background-img {
+  width: 700px;
+  height: 600px;
+}
+
+.coffee-img {
+  width: 700px;
+  height: 600px;
+}

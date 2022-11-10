@@ -1,12 +1,21 @@
 import React from 'react';
+import coffee from '../../img/coffee.jpg';
+import beans from '../../img/coffee-beans.jpg';
+import './mainPage.css';
 
 const MainPage = () => {
   return (
     <>
-      <div>
+      <div className='main-cnt'>
+        <div
+          className='background-img'
+          style={{ backgroundImage: `url(${beans})` }}
+        >
+          <h1 className='heading'>Order your coffee</h1>
+          <button className='order-btn'>Oder</button>
+        </div>
         <div>
-          <h1>Order your coffee</h1>
-          <button>Oder</button>
+          <img className='coffee-img' src={coffee} alt='coffee' />
         </div>
       </div>
     </>
